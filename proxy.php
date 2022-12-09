@@ -117,15 +117,6 @@ class Proxy
     }
 
     /**
-     * @return bool
-     */
-    public static function isInstalledWithComposer()
-    {
-        $autoloaderPath = join(DIRECTORY_SEPARATOR, [dirname(dirname(__DIR__)), 'autoload.php']);
-        return is_readable($autoloaderPath);
-    }
-
-    /**
      * @return void
      */
     public static function registerErrorHandlers()
