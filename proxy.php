@@ -2,7 +2,7 @@
 /**
  * 	This is proxy script, writen by Moayad Terro moaed.terro@gmail.com
  * 	You don't need to understand what is going on, you just need to send your request with url as query param	
- *	I will read that url and get back the resonse to you)	
+ *	I will read that url and get back the response to you)	
  */
 namespace Moayad\MoyProxy;
 
